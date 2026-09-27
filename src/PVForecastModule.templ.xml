@@ -14,7 +14,7 @@
               <!-- Provider type (Byte 0) - Haupttyp, steht in der Kanalauswahl-Tabelle -->
               <Union SizeInBit="8">
                 <Memory CodeSegment="%MID%" Offset="0" BitOffset="0" />
-                <Parameter Id="%AID%_UP-%TT%%CC%001" Name="CH%C%ProviderType" ParameterType="%AID%_PT-PVFProviderType" Offset="0" BitOffset="0" Text="Prognose-Anbieter" Value="1" />
+                <Parameter Id="%AID%_UP-%TT%%CC%001" Name="CH%C%ProviderType" ParameterType="%AID%_PT-PVFProviderType" Offset="0" BitOffset="0" Text="Prognose-Anbieter" Value="0" />
               </Union>
 
               <!-- TypeSelect: kein Union, keine Memory-Referenz -> nur in ETS gespeichert, nicht auf dem Geraet -->

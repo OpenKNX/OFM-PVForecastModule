@@ -5,6 +5,7 @@ v0.2.0
 * Change: Deaktivierte Kanäle erscheinen nicht mehr in der Baumansicht; die Beschreibung bleibt trotzdem eingebbar
 * Change: "Bezeichnung" heißt jetzt durchgängig "Beschreibung"
 * Breaking: Das Speicherlayout verschiebt sich, da der Kanalzähler entfällt – bestehende Projekte müssen neu parametriert werden
+* Fix: Ein neu angelegter Kanal ist standardmäßig "Deaktiviert" statt "forecast.solar"
 
 v0.1.0
 
