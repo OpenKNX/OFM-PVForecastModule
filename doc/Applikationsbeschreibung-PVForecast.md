@@ -62,11 +62,9 @@ Weitere Informationen: https://solcast.com
 
 Wählt den Datenanbieter für diesen Kanal.
 
-| Wert | Bedeutung |
-|------|-----------|
-| Deaktiviert | Kanal ist inaktiv |
-| forecast.solar | Solarprognose via forecast.solar API |
-| Solcast | Solarprognose via Solcast API (API-Key erforderlich) |
+* **Deaktiviert** - Kanal ist inaktiv
+* **forecast.solar** - Solarprognose via forecast.solar API
+* **Solcast** - Solarprognose via Solcast API (API-Key erforderlich)
 
 <!-- DOCEND -->
 
@@ -75,12 +73,10 @@ Wählt den Datenanbieter für diesen Kanal.
 
 Legt fest, in welchem Intervall die Prognose neu abgerufen wird.
 
-| Wert | Intervall |
-|------|-----------|
-| Keine | Nur manuell über KO |
-| 30 Minuten | Alle 30 Minuten |
-| Jede Stunde | Stündlich |
-| Täglich | Einmal täglich |
+* **Keine** - Nur manuell über KO
+* **30 Minuten** - Alle 30 Minuten
+* **Jede Stunde** - Stündlich
+* **Täglich** - Einmal täglich
 
 Empfohlen: **Jede Stunde**.
 
